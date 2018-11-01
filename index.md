@@ -1,6 +1,6 @@
 ---
 title: Self Catering Cottages in Dorset
-banner_image: "/uploads/2018/11/01/Corfe_Castle,_Dorset.jpg"
+banner_image: "/uploads/2018/11/01/Corfe_Castle,_Dorset-1.jpg"
 layout: landing-page
 heading: Corfe and Purbeck Holidays
 partners:
