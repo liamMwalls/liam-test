@@ -6,15 +6,15 @@ fields:
 - type: text
   name: title
   label: Title
-- name: sub_heading
-  label: Sub Heading
+- name: link
+  label: Property Link
   type: text
   hidden: false
   default: ''
-- name: banner_image
-  label: Banner Image
+- name: image
+  label: Property Image
   type: file
-  description: Dimensions work best at 1200 pixels by 400 pixels
+  description: Dimensions work best at 400 pixels by 300 pixels
   hidden: false
   default: ''
 - name: tags
@@ -22,8 +22,3 @@ fields:
   type: tag_list
   hidden: false
   default: []
-- name: slug
-  label: Slug
-  type: text
-  hidden: false
-  default: ''
