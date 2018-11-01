@@ -20,12 +20,12 @@ layout: default
 							{% if propery.image and propery.image != "" %}
 							<img src="{{ propery.image | absolute_url }}" alt="{{ project.title }}">
 							{% else %}
-								<img src="{{ "/img/placeholder.png" | absolute_url }}" alt="{{ project.title }}">
+								<img src="{{ "/img/placeholder.png" | absolute_url }}" alt="{{ property.title }}">
 							{% endif %}
 							</div>
 							<div class="card-body">
-								<h3><a href="{{ project.url | absolute_url }}">{{ project.title }}</a></h3>
-								<a href="{{project.link}}">View Cottage</a>
+								<h3><a href="{{ property.url | absolute_url }}">{{ property.title }}</a></h3>
+								<a href="{{property.link}}">View Cottage</a>
 							</div>
 						</div>
 					</div>
