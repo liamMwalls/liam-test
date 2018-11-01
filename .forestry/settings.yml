@@ -33,7 +33,7 @@ sections:
   - project
 - type: directory
   path: _properties
-  label: properties
+  label: Properties
   create: all
   match: "*"
   templates:
