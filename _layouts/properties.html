@@ -17,11 +17,7 @@ layout: default
 					<div class="pure-u-1 pure-u-md-1-3">
 						<div class="card">
 							<div class="card-header">
-							{% if property.image and property.image != "" %}
-							<img src="{{ property.image | absolute_url }}" alt="{{ project.title }}">
-							{% else %}
-								<img src="{{ "/img/placeholder.png" | absolute_url }}" alt="{{ property.title }}">
-							{% endif %}
+							
 							</div>
 							<div class="card-body">
 								<h3><a href="{{ property.url | absolute_url }}">{{ property.title }}</a></h3>
