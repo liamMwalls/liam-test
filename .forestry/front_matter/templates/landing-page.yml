@@ -81,4 +81,3 @@ fields:
   default: home
 pages:
 - properties.md
-- index.md

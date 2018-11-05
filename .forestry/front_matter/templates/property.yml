@@ -23,5 +23,4 @@ fields:
   hidden: false
   default: []
 pages:
-- _properties/sunset-view-1.md
 - _properties/sunset-view.md
